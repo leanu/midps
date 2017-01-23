@@ -1,1 +1,3 @@
-this is repository for first 2 labs	
+Root for MIDPS Labs:
+ - [x] GUI calculator in Qt
+ - [ ] Android App	
