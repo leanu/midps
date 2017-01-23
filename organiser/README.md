@@ -11,13 +11,13 @@ structura fiecărei Activități va fi descrisă mai jos.
 ###UI Components
 Aplicația va conține minim 3 Activități de baza care vor fi numerotate în lucrare sub forma:
 1. MainActivity (structura/componente)
-..* Calendar View (custom or default)
-..* Buttons (Add/Remove/Update)
-..* Căutare (caută conform cuvintelor cheie)
+  * Calendar View (custom or default)
+  * Buttons (Add/Remove/Update)
+  * Căutare (caută conform cuvintelor cheie)
 2. AddtActivity
-..* Data/Time controller
-..* Info TextBox
-..* Buttons
+  * Data/Time controller
+  * Info TextBox
+  * Buttons
 și altele (la discreție conform specificului aplicației)
 3. UpdateActivity - practic e una și aceeași activitate de la Add, doar ca completata deja.
 
