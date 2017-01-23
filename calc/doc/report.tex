@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+
+\usepackage[left=2cm,right=1cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{indentfirst} % sa fie alineat la primul alineat
+\usepackage{graphicx}
+\usepackage{float}
+%\usepackage{listings}
+
+\frenchspacing
+
+\setcounter{secnumdepth}{2}
+
+\makeatletter
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+
+\begin{document}
+%\lstset{language=C} % for listings
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+
+\center 
+ 
+
+\textsc{\LARGE Technical University of Moldova}\\[0.8cm] 
+\textsc{\Large Faculty of Computers, Informatics and Microelectronics}\\[0.5cm] 
+\textsc{\large Department of Automatics and Information Technologies}\\[5.2cm] 
+
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Laboratory work \#2}\\[0.3cm]
+{\large on Interactive Development Environments for Sowtware Products}\\
+{\large GUI Calculator}\\[0.4cm] 
+\HRule \\[5.5cm]
+ 
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Executed:}\\
+st.gr TI-141(fr) Iulian \textsc{Ma\c{s}aev} 
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Verified:} \\
+assistant lecturer Irina \textsc{Cojanu} 
+\end{flushright}
+\end{minipage}\\[4cm]
+
+
+\vfill 
+{\large Chi\c{s}in\u{a}u, \the\year}\\[3cm] 
+
+
+
+\end{titlepage}
+
+\input{task.tex}
+\input{execution.tex}
+
+\end{document}
