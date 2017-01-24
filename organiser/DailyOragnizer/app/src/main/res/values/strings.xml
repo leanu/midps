@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Daily Oragnizer</string>
+    <string name="countdown">00:00</string>
+    <string name="startButton">Start</string>
 </resources>
